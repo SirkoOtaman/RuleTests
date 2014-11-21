@@ -33,6 +33,7 @@
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.springframework:spring-web:3.0.5.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-webmvc-portlet:3.0.5.RELEASE" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework:spring-test:3.0.5.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: javax:javaee-web-api:6.0" level="project" />
   </component>
 </module>
 

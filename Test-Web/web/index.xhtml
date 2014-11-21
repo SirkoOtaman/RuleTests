@@ -8,10 +8,9 @@
       xmlns:f="http://xmlns.jcp.org/jsf/core">
 
 <f:view>
-    <h:outputLabel value="sa"/>
     <h:form>
         <p:commandButton action="#{backed.say()}" update="mess">Hi</p:commandButton>
-        <p:inputText id="mess" value="#{sprBean.getMessage()}" ></p:inputText>
+        <p:inputText id="mess" value="#{sprBean.message}" ></p:inputText>
     </h:form>
 </f:view>
 </html>
