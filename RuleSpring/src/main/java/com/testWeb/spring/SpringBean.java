@@ -1,5 +1,7 @@
 package com.testWeb.spring;
 
+import org.springframework.beans.factory.annotation.Qualifier;
+
 import javax.inject.Inject;
 import javax.inject.Named;
 
@@ -14,6 +16,7 @@ public class SpringBean {
     String message = "lol";
 
     @Inject
+    @Qualifier("serviceImpl")
     private IService service;
 
     public String getMessage(){
